@@ -41,18 +41,12 @@ A JavaScript runtime environment (JRE) consists of various components that enabl
 
 9. **Libuv (for Node.js)**:
    Libuv is a multi-platform library that provides asynchronous I/O operations for Node.js. It handles:
+
    - File System Operations: Asynchronous reading and writing of files.
    - Network Operations: Handling of network connections and data transfer.
    - Timers and Polling: Management of timers and polling for events.
    - A multi-platform library that provides asynchronous I/O operations.
    - Handles file system operations, DNS operations, network operations, and more.
-
-– File System Operations: Asynchronous reading and writing of files.
-– Network Operations: Handling of network connections and data transfer.
-– Timers and Polling: Management of timers and polling for events.
-
-- A multi-platform library that provides asynchronous I/O operations.
-- Handles file system operations, DNS operations, network operations, and more.
 
 10. **C/C++ Bindings (for Node.js)**:
     - Allows Node.js to use native code for performance-intensive operations.
